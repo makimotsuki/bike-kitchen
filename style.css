@@ -5,11 +5,11 @@ body {
 }
 
 p {
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Red Hat Mono', monospace;
 }
 
 ul li{
-  font-family: 'Cuprum', sans-serif;
+  font-family: 'Red Hat Mono', monospace;
 }
 
 
@@ -21,7 +21,7 @@ ul li{
 }
 
 form {
-    border: 10px solid #c7c0c0;
+    border: 0px solid #c7c0c0;
     border-radius: 25px;
     background-color: rgb(230, 170, 75);
     width: 80%;
@@ -54,6 +54,7 @@ input[type=text], input[type=password] {
 
 .imgcontainer {
   text-align: center;
+  padding: 20px 0px 0px 0px;
   margin: 24px 0 12px 0;
 }
 
