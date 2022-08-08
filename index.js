@@ -51,7 +51,7 @@ function move() {
   }
   function move2() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 16) {
@@ -94,17 +94,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move3() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 24) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -141,21 +143,22 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move4() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 32) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
-        
         if (width ==8){
             hoursLogged = 1;
         }else if (width==16){
@@ -189,17 +192,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }      }
+        }
+      }
     }
   }
   function move5() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 40) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -236,17 +241,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move6() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 48) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -283,21 +290,22 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move7() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 56) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
-        
         if (width ==8){
             hoursLogged = 1;
         }else if (width==16){
@@ -331,17 +339,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move8() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= initialWidth+64) {
+      if (width >= initialWidth + 64) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -378,17 +388,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move9() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
-      if (width >= initialWidth+72) {
+      if (width >= initialWidth + 72) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -425,17 +437,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move10() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 80) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -472,17 +486,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move11() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 88) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -519,17 +535,19 @@ function move() {
         }
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
-        }}
+        }
+      }
     }
   }
   function move12() {
     var elem = document.getElementById("myBar");   
-    var width = 0;
+    var width = initialWidth;
     var id = setInterval(frame, 10);
     function frame() {
       if (width >= initialWidth + 96) {
         initialWidth = width;
         clearInterval(id);
+        
       } else {
         width++; 
         elem.style.width = width + '%'; 
@@ -567,7 +585,7 @@ function move() {
         if (hoursLogged >= 12){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
-    }
+      }
     }
   }
 /* When the user clicks on the button, 
