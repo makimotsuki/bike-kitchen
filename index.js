@@ -38,6 +38,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -87,6 +89,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -136,6 +140,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -185,6 +191,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -234,6 +242,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -283,6 +293,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -332,6 +344,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -381,6 +395,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -430,6 +446,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -479,6 +497,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -528,6 +548,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
@@ -577,6 +599,8 @@ function move() {
             width = 100;
             elem.style.width = width + '%'; 
             hoursLogged = 12;
+        }else if (width>96){
+            hoursLogged = "12+";
         }
         document.getElementById("demo").innerHTML = hoursLogged  + ' hours logged';
         if (hoursLogged >= 6){
