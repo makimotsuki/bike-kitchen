@@ -45,7 +45,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12 || hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -96,7 +96,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -147,7 +147,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -198,7 +198,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -249,7 +249,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -300,7 +300,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -351,7 +351,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -402,7 +402,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -453,7 +453,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -504,7 +504,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -555,7 +555,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -606,7 +606,7 @@ function move() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
       }
@@ -678,7 +678,7 @@ function myFunction() {
         if (hoursLogged >= 6){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership!</div>';
         }
-        if (hoursLogged >= 12){
+        if (hoursLogged >= 12|| hoursLogged == "12+"){
             document.getElementById("demo").innerHTML = hoursLogged + ' hours logged <br> <div class = "big">Congratulations, you have earned a one-year membership and digging rights to build a complete bike!</div>';
         }
 
