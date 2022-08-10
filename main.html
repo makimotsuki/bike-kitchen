@@ -51,7 +51,7 @@
 
         <div class="dropdown">
           <button onclick="myFunction()" class="dropbtn" style = "font-family: 'Red Hat Mono', monospace;">Add Hours</button>
-          <div id="myDropdown" class="dropdown-content">
+          <div id="myDropdown" class="dropdown-content"  style = "font-family: 'Red Hat Mono', monospace;">
             <a onclick = "move()">1 hour</a>
             <a onclick="move2()">2 hours</a>
             <a onclick="move3()">3 hours</a>
@@ -73,6 +73,16 @@
 
           <p>This tool can be used to gauge others' interest or indicate your interest to volunteer by clicking on the 👍 for the dates below! We typically cannot take more than three or four volunteers during any one shift. 
           </p>
+          <br>
+          <button class="collapsible" style = "font-family: 'Red Hat Mono', monospace;">Open Hours</button>
+          <div class="content">
+            <p>Tuesday: 6 – 9 PM<br>
+              Thursday: 6 – 9 PM<br>
+              Wednesday: 6 – 9 PM<br>
+              Saturday: 12 – 3 PM<br>
+              WTF | 2nd/4th Monday: 6 – 9 PM</p>
+          </div>
+          
         </div>
 
 <div class="month">      
@@ -108,12 +118,14 @@
   <li>5</li>
   <li>6</li>
   <li>7</li>
-  <li><span class = "active">8</span></li>
-  <li>9
-    <button id="clickme">👍: 0</button>
+  <li>8
   </li>
-  <li>10
-    <button id="clickme2">👍: 0</button>
+  <li>9
+    
+  </li>
+  <li>
+    <span class = "activ">10</span>
+    
   </li>
   <li>11
     <button id="clickme3">👍: 0</button>
@@ -128,7 +140,7 @@
     
   </li>
   <li>15
-    <button id="clickme7">👍: 0</button>
+   
   </li>
   <li>16
     <button id="clickme8">👍: 0</button>
@@ -170,7 +182,7 @@
     
   </li>
   <li>29
-    <button id="clickme21">👍: 0</button>
+    
   </li>
   <li>30
     <button id="clickme22">👍: 0</button>
